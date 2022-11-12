@@ -19,7 +19,7 @@ def init_field(size: int, empty_cell: Union[str, None]) -> List[List]:
     #         tmp.append(empty_cell)
     #     field.append(tmp)
 
-    return field
+    return field, 1
 
 
 def draw_field(field: List[List]) -> None:
